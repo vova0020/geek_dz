@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.form, ul {
+   margin: 20px 0 0 20px;
+}
+.inputField {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    margin-right: 5px;
+}
+.send {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    background-color: rgba(12, 161, 7, 0.73);
+    border-radius: 10px;
+}
+.massageList {
+    width: 500px;
+    padding: 20px
+}
+
+.massages {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #2b6280;
+    margin-bottom: 5px;
+}
